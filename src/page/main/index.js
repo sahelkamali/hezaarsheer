@@ -2,7 +2,14 @@ import css from "./main.module.css";
 import Header from "../../components/header"; 
 import image2 from "../../assets/image2.png";
 import image5 from "../../assets/image5.png";
+import Button from "../../components/button";
+import { route } from "../../routing/route";
+import {useNavigate } from "react-router-dom";
+
 function Main(){
+    const { main } = route;
+    const navigate = useNavigate();
+
 return (
     <div className={css.fullscreen}>
     <div>
@@ -25,6 +32,9 @@ return (
                             نیشابوری همه و همه همچون مرهمی بر زخم های کوچک و
                             بزرگش تسکین داده اند.
                         </p>
+                        <Button color="yellow" title="فال حافظ" onClick={() => {navigate(main);}} />
+                        <Button color="yellow" title="گنجینه اشعار" onClick={() => {navigate(main);}} />
+
                 </div>
     </div>
 </div>

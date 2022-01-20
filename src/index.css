@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p , span , div , a , button {
+  color: black;
+  font-size: 17px;
+font-family: rezvan;
+}
