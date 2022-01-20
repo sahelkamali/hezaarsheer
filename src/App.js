@@ -1,4 +1,4 @@
-import Routing from './routing/routing';
+import Routing from './routing';
 import './App.css';
 
 function App() {

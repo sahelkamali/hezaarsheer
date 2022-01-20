@@ -1,17 +1,18 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Main from "../page/main";
-import { route } from "../route";
+import Main from "./page/main";
+import { route } from "../src/routing/route";
 function Routing() {
     const {main} = route;
 
     return (
+        
         <BrowserRouter>
         <Routes>
             <Route exact path={main} element={<Main />} />
 
         </Routes>
-    </BrowserRouter>  
+    </BrowserRouter> 
         );
 }
 
