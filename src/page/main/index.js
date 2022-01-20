@@ -7,7 +7,7 @@ import { route } from "../../routing/route";
 import {useNavigate } from "react-router-dom";
 
 function Main(){
-    const { main } = route;
+    const { main , faalPage } = route;
     const navigate = useNavigate();
 
 return (
@@ -32,7 +32,7 @@ return (
                             نیشابوری همه و همه همچون مرهمی بر زخم های کوچک و
                             بزرگش تسکین داده اند.
                         </p>
-                        <Button color="yellow" title="فال حافظ" onClick={() => {navigate(main);}} />
+                        <Button color="yellow" title="فال حافظ" onClick={() => {navigate(faalPage);}} />
                         <Button color="yellow" title="گنجینه اشعار" onClick={() => {navigate(main);}} />
 
                 </div>

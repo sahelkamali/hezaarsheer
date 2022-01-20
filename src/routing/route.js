@@ -1,4 +1,5 @@
 export const route = {
-    main: "/"
+    main: "/", 
+    faalPage :'/faalPage'
 
 };
