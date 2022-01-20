@@ -4,8 +4,9 @@ import Main from "./page/main";
 import { route } from "../src/routing/route";
 import FaalPage from "./page/faalPage";
 import Ganjineh from "./page/ganjineh";
+import ShaerPage from "./page/ShaerPage";
 function Routing() {
-    const {main , faalPage , ganjineh} = route;
+    const {main , faalPage , ganjineh , shaer} = route;
 
     return (
         
@@ -14,6 +15,8 @@ function Routing() {
             <Route exact path={main} element={<Main />} />
             <Route exact path={faalPage} element={<FaalPage />} />
             <Route exact path={ganjineh} element={<Ganjineh />} />
+            <Route path={`${shaer}/:id`} element={<ShaerPage />} />
+
         </Routes>
     </BrowserRouter> 
         );

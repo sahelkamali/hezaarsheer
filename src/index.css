@@ -20,3 +20,36 @@ p , span , div , a , button {
   font-size: 17px;
 font-family: rezvan;
 }
+.react-multi-carousel-list {
+  direction: ltr;
+}
+ul.react-multi-carousel-track {
+  text-align: center;
+  left: 9%;
+}
+.react-multiple-carousel__arrow {
+  bottom: 2px;
+}
+.react-multiple-carousel__arrow--right {
+  left: calc(9% + 1px);
+}
+.react-multi-carousel-item a div {
+  display: flex;
+  flex-direction: column;
+  height: 297px;
+  width: 187px;
+  padding: 0;
+  margin-left: 80px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 5px 4px rgb(183 183 183 / 87%);
+  text-align: center;
+  cursor: pointer;
+}
+.react-multi-carousel-item a div img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}

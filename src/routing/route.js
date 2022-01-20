@@ -1,6 +1,7 @@
 export const route = {
     main: "/", 
     faalPage :'/faalPage' , 
-    ganjineh:'/ganjineh'
+    ganjineh:'/ganjineh',
+    shaer: "/shaer",
 
 };
