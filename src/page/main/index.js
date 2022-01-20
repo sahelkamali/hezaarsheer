@@ -4,14 +4,14 @@ import image2 from "../../assets/image2.png";
 import image5 from "../../assets/image5.png";
 function Main(){
 return (
-    <div>
+    <div className={css.fullscreen}>
     <div>
         <Header />
     </div>
     <img className={css.image2} src={image2}/>
     <div className={css.right}>
     <div className={css.image}>
-                 <img  src={image5}/>
+                 <img   src={image5}/>
                 </div>
                 <div className={css.text}>
                 <p>

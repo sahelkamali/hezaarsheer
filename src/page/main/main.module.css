@@ -19,3 +19,10 @@
     height: 100%;
     left: 0;
 }
+.fullscreen {
+    background: linear-gradient(
+        -90deg
+        , #ffffff 0%, #dfe9f3 100%);
+        position: absolute;
+        height: 100vh;
+}
