@@ -12,7 +12,7 @@ function FaalPage(){
        <div className={css.fullScreen}>
         <div className={css.backYelow}>
             <FaalBox />
-            <Button color="gray" title="بازگشت به صفحه اصلی" onClick={() => {navigate(main);}} />
+            <Button color="gray" title="بازگشت به صفحه اصلی " onClick={() => {navigate(main);}} />
         </div>
        </div> 
     );
