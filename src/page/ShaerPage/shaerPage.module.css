@@ -1,6 +1,35 @@
 .leftYellow {
-
+    position: absolute;
+    width: 885px;
+    left: 0;
+    top: 146px;
+    background: #F5D36F;    
+    border: 1px solid #F4BB13;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 59%;
 }
 .rightBlue {
-    
+    position: absolute;
+    width: 124ch;
+    right: 0;
+    top: 202px;
+    background: rgba(208, 227, 245, 0.5);
+    border: 1px solid #99C4EF;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    z-index: -1;
+    line-height: 30px;
+}
+.backgorund {
+    background: url('../../assets//image1.png') no-repeat;
+    height: 100vh;
+    background-size: contain;
+}
+.refreshing {
+    position: absolute;
+    bottom: 13px;
+    right: 41px;
 }

@@ -9,7 +9,7 @@ return (
         <img className={css.logoGanjoor} src={logo}/>
         <ul>
             <li><a href="/faalPage">فال حافظ</a></li>
-            <li><a href="/">گنجینه اشعار</a></li>
+            <li><a href="/ganjineh">گنجینه اشعار</a></li>
             <li><a href="/">درباره ما</a></li>
         </ul>
     </nav>

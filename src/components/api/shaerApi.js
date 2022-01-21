@@ -12,8 +12,7 @@ function ShaerApi(id) {
     const changepoem = [];
 
     useEffect(() => {
-        fetch(
-            "`https://ganjgah.ir/api/ganjoor/poet/${id}`")
+        fetch(`https://ganjgah.ir/api/ganjoor/poet/${id}`)
                         .then((res) => res.json())
                         .then((data) => {
                             const { poet: { nickname, description, imageUrl },} = data;
@@ -50,7 +49,12 @@ function ShaerApi(id) {
         setRefresh(true);
     }, []);
     return {
-        name, refresh, image, title, poem,info
+        name,
+        info,
+        image,
+        title,
+        poem,
+        refresh,
     };
 
 }
