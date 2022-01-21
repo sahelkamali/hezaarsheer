@@ -16,7 +16,7 @@ function Ganjineh(){
     <img src={image3} />
 </div>
 <div className={css.leftBlue}></div>
-<div className={css.test}>
+<div className={css.slidercontainer}>
 <Slider poets={poets} />
 
 </div>

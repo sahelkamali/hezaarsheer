@@ -1,14 +1,13 @@
 export function Getpoet(poets) {
-    const facade = [];
+    const sgaeerinfo = [];
 
     for (let i = 0; i < poets.length; i++) {
         const poet = poets[i];
-
-        facade.push({
+        sgaeerinfo.push({
             id: poet.id,
             name: poet.nickname,
             image: `https://ganjgah.ir${poet.imageUrl}`,
         });
     }
-    return facade;
+    return sgaeerinfo;
 }
